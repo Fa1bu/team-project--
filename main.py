@@ -3,7 +3,7 @@ def multiply(a, b):
 
 def divide(a, b):
     if b == 0:
-        raise ValueError("Division by zero!")
+        raise ValueError("Деление на ноль")
     return a / b
 
 if __name__ == "__main__":
